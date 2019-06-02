@@ -16,6 +16,10 @@ $(document).ready(function(){
 
     function test(){}
 
+    function taoBranchhoangminh(){
+        
+    }
+
     $("#btnThemNguoiDung").click(function(){
         changeModal("Thêm người dùng", "Thêm", "btnThem");
     })
