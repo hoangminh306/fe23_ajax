@@ -20,7 +20,10 @@ $(document).ready(function(){
         
     }
 
-    function timKiem(){}
+    function timKiem(){
+        console.log(123);
+        
+    }
 
     $("#btnThemNguoiDung").click(function(){
         changeModal("Thêm người dùng", "Thêm", "btnThem");
