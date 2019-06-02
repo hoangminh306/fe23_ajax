@@ -14,6 +14,8 @@ $(document).ready(function(){
         });
     }
 
+    function test(){}
+
     $("#btnThemNguoiDung").click(function(){
         changeModal("Thêm người dùng", "Thêm", "btnThem");
     })
